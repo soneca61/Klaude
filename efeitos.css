@@ -1,0 +1,79 @@
+body{
+    position: relative;
+    font-family: 'livvic', sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 10%;
+    left: 04%;
+}
+nav{
+    position: relative;
+    color: orange;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.botao, .car, .profile {
+    position: absolute;
+    top: 10.5%;
+    margin-left: auto;
+}    
+.retan{
+    position: absolute;
+    top: 9%;
+    border: 2px solid chocolate;
+    margin-left: 310px;
+    width: 800px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+.botao{
+    position: absolute;
+    left: 67%;
+}
+.car{
+    position: absolute;
+    width: 06%;
+    height: auto;
+    left: 79%;
+}
+.profile{
+    position: absolute;
+    left: 90%;
+    width: 04%;
+    height: auto;
+}
+.tela{
+    box-shadow: inset 0px 100px 100px hsla(0, 0%, 5%, 0.7);
+    background-image: url('img/bloco2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid chocolate;
+    margin: 0;
+    padding: 0;
+    width: 2400%;
+    height: 450px;
+    z-index: -1;
+}
+.klau{
+    position: absolute;
+    top: 30%;
+    left: 05%;
+    font-size: 20px;
+    width: 400px;
+    color: aliceblue;
+    font-weight: bold;
+    z-index: 1;
+    line-height: 1.7;
+}
+
